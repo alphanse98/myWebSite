@@ -1,0 +1,1091 @@
+ /* Home page (1) */
+ .first-page {
+    background-image: url(/Restaurent-Alphanse-/image//1.jpg);
+    background-size: cover;
+    background-position: bottom;
+    width: auto;
+    height: 620px;
+ }
+ .main {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Raleway", sans-serif;
+
+    /* position: fixed; */
+ }
+ .main1 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 600;
+ }
+ .main2 i {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+ }
+ .main3 {
+    display: none;
+ }
+ .container {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+ }
+
+ .container-item {
+    text-align: center;
+    border: 0 solid;
+    width: 500px;
+    background: rgb(255, 255, 255, 0.6);
+    margin-top: 200px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+ }
+
+ .container h1 {
+    font-size: 55px;
+    color: rgb(33, 33, 83);
+   font-family: "Cookie", cursive; ;
+ }
+
+ .container h2 {
+    padding-top: 10px;
+    font-size: 30px;
+    color: rgb(185, 113, 31);
+    font-family: "Raleway", sans-serif;
+ }
+
+ .container button {
+    margin-top: 10px;
+    border: none;
+    font-size: 22px;
+    color: rgb(48, 48, 122);
+ }
+
+ .container button:hover {
+    background-color: blueviolet;
+    transition: 0.7s;
+ }
+
+ @media (min-width:768px) {
+    .main {
+       display: flex;
+       justify-content: space-between;
+    }
+
+    .main1 {
+       font-size: 35px;
+       margin-left: 70px;
+    }
+
+    .main2 i {
+       display: none;
+    }
+
+    .main3 {
+       display: block;
+       margin-top: 10px;
+    }
+
+    #space-1 {
+       margin-left: 70px;
+    }
+
+    .main3 li {
+       display: inline-block;
+    }
+
+    .main3 a {
+       margin-left: 20px;
+       font-size: 28px;
+       text-decoration: none;
+       color: rgb(255, 255, 255);
+    }
+ }
+
+ @media(min-width:992px) {
+    .main1 {
+       margin-left: 120px;
+    }
+
+    .main3 a {
+       margin-left: 50px;
+    }
+
+    .container-item {
+       margin-top: 150px;
+       padding-top: 80px;
+       padding-bottom: 80px;
+    }
+ }
+
+
+
+ /* Traditional flavour (2) */
+ .traditional {
+    /* background-color: rgb(1, 1, 22); */
+    background-color: #044749;
+    width: auto;
+    height: 650px;
+    font-family: "Raleway", sans-serif;
+
+ }
+
+ .traditional-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+ }
+
+ .traditional-container-item1 img {
+    margin-top: 40px;
+    width: 280px;
+    height: auto;
+ }
+
+ .traditional-container-item2 {
+    width: 300px;
+ }
+
+ .traditional-container-item2 h1 {
+    color: white;
+    font-size: 22px;
+    margin-top: 20px;
+ }
+
+ .traditional-container-item2 p {
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 23px;
+    font-family: 'Times New Roman', Times, serif;
+ }
+
+ @media(min-width:567px) {
+    .traditional-container {
+       flex-direction: column;
+       margin-left: 80px;
+    }
+
+    .traditional-container-item1 img {
+       width: 470px;
+    }
+
+    .traditional-container-item2 p {
+       width: 470px;
+    }
+ }
+
+ @media(min-width:768px) {
+    .traditional-container {
+       margin-left: 120px;
+    }
+
+    .traditional-container-item1 img {
+       width: 620px;
+    }
+
+    .traditional-container-item2 p {
+       width: 620px;
+    }
+ }
+
+ @media(min-width:992px) {
+    .traditional {
+       height: 500px;
+    }
+
+    .traditional-container {
+       display: flex;
+       justify-content: space-evenly;
+       flex-wrap: nowrap;
+       flex-direction: row;
+    }
+
+    .traditional-container-item1 {
+       margin-top: 65px;
+       order: 1;
+    }
+
+    .traditional-container-item2 {
+       margin-top: 85px;
+       margin-left: -80px;
+       order: 0;
+    }
+
+    .traditional-container-item1 img {
+       width: 420px;
+       margin-left: 200px;
+
+    }
+
+    .traditional-container-item2 h1 {
+       width: 450px;
+       font-size: 30px;
+    }
+
+    .traditional-container-item2 p {
+       width: 450px;
+       line-height: 25px;
+       font-size: 25px;
+    }
+ } 
+
+ /* ***************************************************************************/
+
+ /* Our special page(3) */
+ .special {
+    background-color: antiquewhite;
+    width: auto;
+    height: 1500px;
+    font-family: "Raleway", sans-serif;
+ }
+
+ .special-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+ }
+
+ .special-container-item1 {
+    padding-top: 70px;
+    margin-left: 20px;
+ }
+
+ .special-container-item1 h2 {
+    border: 0 solid black;
+    background-color: black;
+    width: 35px;
+    height: 35px;
+    border-radius: 30px;
+ }
+
+ .special-container-item1 h1 {
+    margin-top: 30px;
+    font-size: 28px;
+ }
+
+ .special-container-item1 p {
+    margin-top: 30px;
+    line-height: 25px;
+ }
+
+ .special-container-item2 {
+    padding-top: 70px;
+    margin-left: 20px;
+ }
+
+ .circle-item1 {
+    display: flex;
+ }
+
+ #variety-circle-container {
+    margin-right: 10px;
+ }
+
+ .special-container-item2 h2 {
+    border: 0 solid black;
+    background-color: black;
+    width: 35px;
+    height: 35px;
+    border-radius: 30px;
+ }
+
+ .special-container-item2 h1 {
+    margin-top: 30px;
+    font-size: 28px;
+
+ }
+
+ .special-container-item2 p {
+    margin-top: 30px;
+    line-height: 25px;
+
+ }
+
+ .special-container-item3 {
+    padding-top: 70px;
+    margin-left: 20px;
+ }
+
+ .special-container-item3 h2 {
+    border: 0 solid black;
+    background-color: black;
+    width: 35px;
+    height: 35px;
+    border-radius: 30px;
+ }
+
+ .special-container-item3 h1 {
+    margin-top: 30px;
+    font-size: 28px;
+ }
+
+ .special-container-item3 p {
+    margin-top: 30px;
+    line-height: 25px;
+ }
+
+ @media(min-width:300px) {
+    .special {
+       height: 1100px;
+    }
+ }
+
+ @media(min-width:500px) {
+    .special {
+       height: 1000px;
+    }
+ }
+
+ @media(min-width:567px) {
+    .special {
+       height: 1000px;
+    }
+ }
+
+ @media(min-width:768px) {
+    .special {
+       background-color: antiquewhite;
+       width: auto;
+       height: 400px;
+    }
+
+    .special-container {
+       display: flex;
+       flex-wrap: nowrap;
+       /* justify-content: center; */
+    }
+ }
+
+
+  @media(min-width:992px) {
+    .special-container-item1 {
+       /* padding-top: 70px; */
+        margin-left: 70px;
+    }
+
+    .special-container-item2 {
+       margin-left: 50px;
+    }
+
+    .special-container-item3 {
+       margin-left: 50px; 
+    }
+ }  
+
+ /********************************************************************************************************** */
+ /* Our dishes page(4)  */
+ .our-menu {
+    background-image: url(/Restaurent-Alphanse-/image//9.jpg);
+    background-size: cover;
+    background-position: bottom;
+    width: auto;
+    height: auto;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    align-items:flex-end;
+ }
+
+ .menu-background {
+    height: auto;
+    width: 260px;
+    align-self: center;
+    background: rgb(255, 255, 255, 0.7);
+    margin-bottom: 80px;
+    margin-top: 100px;
+ }
+ .menu-background h1{
+   text-align: center;
+   padding-top: 10px;
+   font-size: 40px;
+   color: rgb(207, 156, 93);
+}
+.menu-background h2 {
+   text-align: center;
+   margin-top: 10px;
+   font-size: 30px;
+   color: rgb(48, 48, 122);
+}
+#header-space{
+   margin-top: 50px;
+}
+.img-container {
+   width: 275px;
+   height: 260px;
+    
+}
+.menu-background1 h3{
+   padding-top: 40px;
+   font-size: 25px;
+   color: rgb(48, 48, 122);
+}
+.menu-item {
+   width: 275px;
+   height: 260px;
+   background-color: antiquewhite;
+   /* padding-bottom: 40px; */
+   text-align: center;
+}
+.menu-item p{
+   font-size: 19px;
+   line-height: 25px;
+   margin-top: 25px;
+   margin-bottom: 30px;
+}
+.menu-item h4{
+   font-size: 25px;
+}
+.menu-background2{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin: 0px;
+   /* flex-direction: row-reverse; */
+}
+@media(min-width:567px){
+   .menu-background {
+      height: auto;
+      width: 520px;
+}
+   #header-space2{
+      margin-top: 50px;
+   }
+   
+} 
+
+@media(min-width:992px){
+   .menu-background {
+      height: auto;
+      width: 960px;
+}
+.img-container {
+   width: 240px;
+   height: 260px; 
+}
+.menu-item {
+   width: 240px;
+   height: 260px;
+
+}
+}
+ 
+
+ /********************************************************************************************************** */
+ /*  page(5) */
+ .variety {
+    height: 650px;
+    width: auto;
+    background: rgb(131, 139, 146);
+ }
+
+ .variety-container {
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .variety-item1 {
+    display: none;
+ }
+
+ .variety-item3 {
+    display: none;
+ }
+
+ .variety-item2 {
+    text-align: center;
+    margin-top: 100px;
+ }
+
+ .variety-item2 h1 {
+    font-size: 30px;
+ }
+
+ .variety-item2 p {
+    font-size: 20px;
+    margin-top: 30px;
+    line-height: 25px;
+ }
+
+ .variety-item2 a {
+    text-decoration: none;
+    color: black;
+    margin-left: 15px;
+    /* padding-top: 40px; */
+ }
+
+ .Variety-circle {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+ }
+
+ #variety-circle-item {
+    margin-right: 20px;
+ }
+
+ .Variety-circle h2 {
+    border: 2px solid black;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+ }
+
+ @media(min-width:300px) {
+    .variety {
+       height: 500px;
+    }
+ }
+
+ @media(min-width:500px) {
+    .variety {
+       height: 420px;
+    }
+ }
+
+ @media(min-width:768px) {
+    .variety {
+       height: 500px;
+    }
+
+    .variety-item1 {
+       display: block;
+    }
+
+    .variety-item2 {
+       width: 500px;
+    }
+
+    .variety-item3 {
+       display: block;
+    }
+ }
+
+ @media(min-width:900px) {
+    .variety {
+       height: 410px;
+    }
+ }
+
+ /* ***************************************************************************/
+ /* page(6) */
+ .discover-menu {
+    height: 1000px;
+    width: auto;
+    background-image: url(/Restaurent-Alphanse-/image//12.jpg);
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    align-items:flex-end;
+ }
+
+ .discover-background{
+    height: 800px;
+    width: 270px;
+    align-self: center;
+    background: rgb(255, 255, 255, 0.7);
+    color: rgb(33, 33, 83);
+ }
+.discover-background h2{
+   font-size: 32px;
+   padding-top: 20px;
+   text-align: center;
+   color: rgb(33, 33, 83);
+}
+.discover-background h3{
+   font-size: 26px;
+   padding-top: 10px;
+   text-align: center;
+   color: rgb(207, 156, 93);
+}
+.discover-container1 {
+   margin-top: 30px;
+}
+.discover-container1 h4{
+   margin-bottom: 10px;
+}
+.discover-container1 p{
+   line-height: 17px;
+}
+.discover-container1{
+   display: flex;
+}
+.discover-item1 span{
+   font-weight: 600;
+}
+.discover-container{
+   display: flex;
+   flex-direction: column;
+}
+@media(min-width:567px){
+   .discover-menu {
+      height: 700px;
+   }
+   .discover-background{
+      width: auto;
+      height: 500px;
+      align-self: center;
+   }
+   .discover-container1{
+      /* margin: auto; */
+      /* width: 300px; */
+   }
+   .discover-container{
+      display: flex;
+      flex-direction: row;
+   }
+}
+@media(min-width:992px){
+   .discover-container{
+      display: flex;
+      justify-content: space-evenly;
+      /* justify-content: center; */
+   }
+}
+
+
+ /* ***************************************************************************/
+ /* page(7) */
+ .image-container1 {
+    height: 700px;
+    width: auto;
+    background-image: url(/Restaurent-Alphanse-/image//13.jpg);
+    background-size: cover;
+    background-position: bottom;
+ }
+
+
+ /* ***************************************************************************/
+ /* page(8) */
+ .booking {
+    background-color: rgb(4, 71, 73);
+    width: auto;
+    height: auto;
+ }
+
+ .booking h1 {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 40px;
+ }
+
+ .booking input {
+    width: 200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+ }
+
+ .book-item1 h2 {
+    color: white;
+    font-size: 18px;
+    margin-top: 30px;
+ }
+
+ .book-item1 input {
+    background-color: rgb(4, 71, 73);
+    color: white;
+    border-color: white;
+    border-radius: 7px;
+    height: 20px;
+    margin-top: 10px;
+ }
+
+ .book-item2 h2 {
+    color: white;
+    font-size: 18px;
+    margin-top: 30px;
+ }
+
+ .book-item2 input {
+    background-color: rgb(4, 71, 73);
+    color: white;
+    border-color: white;
+    border-radius: 7px;
+    height: 20px;
+    margin-top: 10px;
+
+ }
+
+ .book-item3 h2 {
+    color: white;
+    font-size: 18px;
+    margin-top: 30px;
+ }
+
+ .book-item3 input {
+    background-color: rgb(4, 71, 73);
+    color: white;
+    border-color: white;
+    border-radius: 7px;
+    height: 20px;
+    margin-top: 10px;
+
+ }
+
+ .book-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+ }
+
+ .btn-container {
+    display: flex;
+    justify-content: center;
+
+ }
+
+ .btn-container button {
+    padding: 8px 80px;
+    border-radius: 8px;
+    background-color: rgb(4, 71, 73);
+    margin-top: 50px;
+    color: white;
+    border-color: white;
+    margin-bottom: 80px;
+ }
+
+ @media(min-width:371px) {
+    .booking {
+       height: auto;
+    }
+ }
+
+ @media(min-width:548px) {
+    .booking {
+       height: auto;
+    }
+ }
+
+ /* ***************************************************************************/
+ /* page(9) */
+ .image-container2 {
+    height: 700px;
+    width: auto;
+    background-image: url(/Restaurent-Alphanse-/image//14.jpg);
+    background-size: cover;
+    background-position: bottom;
+ }
+
+
+ /* ***************************************************************************/
+ /* page(10) */
+ .new-menu {
+    width: auto;
+    height: auto;
+    background-color: rgb(227, 217, 236);
+ }
+
+ .new-menu h1 {
+    font-size: 35px;
+    color: rgb(33, 33, 83);
+    text-align: center;
+    padding-top: 20px;
+ }
+
+ .new-menu h2 {
+    padding-top: 10px;
+    font-size: 30px;
+    color: rgb(207, 156, 93);
+    text-align: center;
+ }
+
+ .new-menu-container {
+    display: flex;
+    /* flex-direction: column-reverse; */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    color: rgb(33, 33, 83);
+ }
+
+ .new-menu-item1 img {
+    width: 290px;
+ }
+
+ .new-menu-item1 {
+    width: 290px;
+    height: auto;
+    background-color: white;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    padding-bottom: 50px;
+ }
+
+ .new-menu-container h3 {
+    padding-top: 20px;
+    padding-left: 10px;
+ }
+
+ .new-menu-container h4 {
+    padding-top: 15px;
+    padding-left: 10px;
+ }
+
+ .new-menu-container p {
+    padding-top: 10px;
+    padding-left: 10px;
+    line-height: 20px;
+    font-size: 17px;
+ }
+
+ .new-menu-container h5 {
+    padding-top: 15px;
+    padding-left: 10px;
+    border-bottom: 4px;
+ }
+
+ .new-menu-item2 img {
+    width: 290px;
+ }
+
+ .new-menu-item2 {
+    width: 290px;
+    height: auto;
+    background-color: white;
+    margin-bottom: 100px;
+    padding-bottom: 50px;
+ }
+
+ .new-menu-item3 img {
+    width: 290px;
+ }
+
+ .new-menu-item3 {
+    width: 290px;
+    height: auto;
+    background-color: white;
+
+    margin-bottom: 100px;
+    padding-bottom: 50px;
+ }
+
+ @media(min-width:597px) {
+    .new-menu-item2 {
+       margin-top: 70px;
+    }
+ }
+
+ @media(min-width:887px) {
+    .new-menu-item3 {
+       margin-top: 70px;
+    }
+ }
+
+
+ /* ***************************************************************************/
+ /* page(11) */
+ .social-media {
+    height: 670px;
+    width: auto;
+    background-color: rgb(4, 42, 85);
+    text-align: center;
+
+ }
+
+ .social-media-item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column
+ }
+
+ .social-media-container i {
+    font-size: 35px;
+    color: white;
+    margin-top: 70px;
+ }
+
+ .social-media-container p {
+    font-size: 22px;
+    color: white;
+    margin-top: 50px;
+    line-height: 30px;
+ }
+
+ .social-media-container h1 {
+    font-size: 22px;
+    color: white;
+    margin-top: 30px;
+ }
+
+ .icon-section i {
+    font-size: 30px;
+    margin-top: 70px;
+    margin-left: 20px;
+    border-style: solid;
+    width: 40px;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: white;
+    color: rgb(4, 42, 85);
+ }
+
+ @media(min-width:350px) {
+    .social-media {
+       height: 650px;
+    }
+ }
+
+ @media(min-width:430px) {
+    .social-media {
+       height: 500px;
+    }
+ }
+
+ @media(min-width: 768px) {
+    .social-media-item i {
+       margin-bottom: 30px;
+    }
+
+    .social-media-item p {
+       width: 600px;
+       margin: auto;
+    }
+ }
+
+
+
+ /* ***************************************************************************/
+ /* page(12) */
+ .final-page {
+    width: auto;
+    height: 650px;
+    background-color: rgb(236, 220, 220);
+ }
+
+ .final-page-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* flex-direction: column; */
+ }
+
+ .final-page-item1 {
+    width: 500px;
+    color: rgb(4, 42, 85);
+ }
+
+ .final-page-item1 {
+    flex-grow: 2;
+    margin: 0 30px;
+ }
+
+ .final-page-item1 h1 {
+    color: rgb(4, 42, 85);
+    margin-top: 70px;
+    font-size: 25px;
+ }
+
+ .final-page-item1 p {
+    color: rgb(4, 42, 85);
+    margin-top: 15px;
+    line-height: 22px;
+    font-size: 21px;
+ }
+
+ .final-page-item2 {
+    color: rgb(4, 42, 85);
+    margin-top: 30px;
+    flex-grow: 2;
+    margin-left: 30px;
+ }
+
+ .final-page-item2 h2 {
+    font-size: 21px;
+    margin-bottom: 12px;
+ }
+
+ .final-page-item2 p {
+    margin-top: 10px;
+    font-size: 19px;
+ }
+
+ .final-page-item3 {
+    color: rgb(4, 42, 85);
+    margin-top: 30px;
+    flex-grow: 2;
+    margin-left: 30px;
+ }
+
+ .final-page-item3 h2 {
+    font-size: 21px;
+    margin-bottom: 12px;
+ }
+
+ .final-page-item3 p {
+    margin-top: 10px;
+    font-size: 19px;
+ }
+
+ .final-page-item4 {
+    color: rgb(4, 42, 85);
+    margin-top: 30px;
+    flex-grow: 2;
+    margin-left: 30px;
+ }
+
+ .final-page-item4 h2 {
+    font-size: 21px;
+    margin-bottom: 12px;
+ }
+
+ .final-page-item4 p {
+    margin-top: 10px;
+    font-size: 19px;
+ }
+
+ @media(min-width:300px) {
+    .final-page {
+       height: 670px;
+    }
+ }
+
+ @media(min-width:336px) {
+    .final-page {
+       height: 600px;
+    }
+ }
+
+ @media(min-width:430px) {
+    .final-page {
+       height: 470px;
+    }
+ }
+
+ @media(min-width:1082px) {
+    .final-page {
+       height: 320px;
+    }
+ }
+
+ @media(min-width:682px) {
+    .final-page-item2 {
+       margin-top: 70px;
+    }
+ }
+
+ @media(min-width:787px) {
+    .final-page-item3 {
+       margin-top: 70px;
+    }
+ }
+
+ @media(min-width:892px) {
+    .final-page-item4 {
+       margin-top: 70px;
+    }
+ }
+
+ @media(min-width:992px) {
+    .final-page-item1 {
+       margin-left: 120px;
+    }
+ }
+
+ .final-page-item4 {
+    margin-right: 100px;
+ }

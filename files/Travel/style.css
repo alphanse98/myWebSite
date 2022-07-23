@@ -1,0 +1,301 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.header {
+    background-image: url(/Travel/image/hero-bg.jpg);
+    height: 500px;
+    width: auto;
+    background-size: cover;
+    background-position: bottom;
+
+}
+
+.header-content-sub h1 {
+    text-align: center;
+    padding-top: 38px;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.header-content-sub h2 {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    display: block;
+    font-weight: 300;
+}
+
+.in{
+    margin-top: 200px;
+}
+.button{
+    text-align: center;
+}
+.button button{
+    background-color: #FD680E;
+    border-style: none;
+    padding: 7px 30px;
+    border-radius: 15px;
+    color: #ffffff;
+    
+}
+
+.button button:hover{
+    /* opacity: .7; */
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+
+@media(min-width:300px){
+    .in input {
+        padding: 5px 10px;
+        border: none;
+        border-radius: 20px;
+        display: block;
+        margin-top: 10px;
+        margin: 0px auto;  
+        margin-bottom: 20px;
+    }
+}
+
+@media(min-width:600px) { 
+    .header-content-sub h1{
+        font-size: 48px;
+       }
+       .header-content-sub h2{
+           font-size: 29px;
+       } 
+       .in{
+        text-align: center;   
+       }
+       .in input{
+            display: inline-block;
+            margin: 20px;
+        }    
+}
+
+/* body section  */
+
+.body-section{
+    display: flex;
+    margin-top: 90px;
+    flex-direction:column ;
+}
+
+.body-section-flex-one{
+    flex: 1;
+    
+}
+.body-section-flex-one img{
+    width: 300px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+.body-section-flex-two{
+    flex: 1;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 10px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+
+@media(min-width:600px) {
+
+    
+    .body-section-flex-two{
+       font-size: 22px;
+    }
+    .body-section-flex-one img{
+        width: 500px;
+    }
+    
+}
+@media(min-width:1000px){
+    .body-section{
+        flex-direction: row;
+    }
+    .body-section-flex-one img{
+        width: 550px;
+    }
+    .body-section-flex-two{
+        font-size: 26px;
+        line-height: 50px;
+     }
+
+}
+
+ /* plan section  like mission vision plan */
+ 
+.plan-flex{
+    width: auto;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    margin: 100px 30px;
+    align-items: center;
+    justify-content: center;
+}
+.plan-flex-child{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* margin-right: 20px; */
+    width: 380px;
+    height: 500px;
+    background-color:whitesmoke;
+}
+.plan-flex-child h1{
+    text-align: center;
+    margin: 20px 0px;
+    color: #743e1d;
+    font-size: 25px;
+}
+.plan-flex-child p{
+    text-align: left;
+    font-size: 20px;
+    color: #5e5e5e;
+    width: 350px;
+    line-height: 30px;
+}
+.plan-flex-child img{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 350px;
+}
+
+/* <!-- Frequenty Asked Questions --> */
+
+.questions h1{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 300;
+    margin-bottom: 100px;
+}
+.questions h2{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 50px;
+    font-weight: 400;
+    margin-top: 30px;
+    color: #5e5e5e;
+  
+}
+.questions h2:hover{
+    cursor: pointer;
+    color: #FD680E;
+}
+
+/* <!-- Contact Us section.      --> */
+
+.Contact{
+    margin-top: 50px;
+}
+.Contact-flex{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.Contact p{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 300;
+    margin-bottom: 70px;
+}
+
+.Contact-flex-one{
+    
+    text-align: center;
+    /* margin-left: 50px; */
+    font-weight: 400;
+    color: #5e5e5e;
+    flex: 1;
+    
+}
+.icon{
+    width: auto;
+    margin-top: 25px;;
+    
+
+    
+}
+
+
+.Contact-flex-two{
+    text-align: center;
+    flex: 1;
+    
+}
+.input-box{
+    width: 250px;
+    height: 30px;
+    margin-left: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.input-message{
+    width: 250px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.submit{
+    text-align: center;
+    
+}
+
+.submit button{
+    background-color: #FD680E;
+    color: white;
+    margin-top: 20px;
+    border-style: none;
+    width: 200px;
+    height: 45px;
+    
+    padding: -6px 0;
+    
+}
+.submit button:hover{
+    opacity: .9;
+    cursor: pointer;
+}
+
+
+
+@media(min-width:720px){
+    .Contact-flex{
+        flex-direction: row;
+    }
+    .icon{
+        text-align: right;
+        margin-right: 50px;
+        
+    }
+    .input-box{
+        width: 400px;
+    }
+    .Contact-flex-two{
+        text-align: left;
+        padding-left: 50px;   
+    }
+    .submit{
+        text-align: left;
+        margin-left: 30px;
+    }
+
+}
+
+.footer{
+    width: auto;
+    height: 150px;
+    background-color: #743e1d;
+    margin-top: 80px;
+}
