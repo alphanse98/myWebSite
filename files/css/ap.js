@@ -3,11 +3,11 @@ let navBtn = document.querySelector(".navBtn"),
   overLay = document.querySelector(".overLay"),
   navItems = document.querySelectorAll(".navItems"),
   
- line1 = document.querySelector('.line1');
- line2 = document.querySelector('.line2');
+ line1 = document.querySelector('.line1'),
+ line2 = document.querySelector('.line2'),
  line3 = document.querySelector('.line3');
   
-
+console.log(navBtn)
   let action = () => {
     navBar.classList.toggle("display");
     overLay.classList.toggle("hidden");
@@ -15,7 +15,6 @@ let navBtn = document.querySelector(".navBtn"),
     line1.classList.toggle("toggle1");
     line2.classList.toggle("toggle2");
     line3.classList.toggle("toggle3");
-    // console.log(navBtn)
   };
 
 navBtn.addEventListener("click", function () {
@@ -26,8 +25,11 @@ overLay.addEventListener("click", function () {
 });
 
 navItems.forEach((navItemsArr) => {
-  console.log(navItemsArr);
   navItemsArr.addEventListener("click", () => {
-    action();
+    action(); 
   });
 });
+
+
+
+
